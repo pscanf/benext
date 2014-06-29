@@ -1,0 +1,164 @@
+/* page_1 css */
+
+img#terminal {
+	float:			right;
+	width:			180px;
+	padding-top:		30px;
+	padding-bottom:		0px;
+	padding-left:		20px;
+	padding-right:		0px;
+}
+
+
+/* page_2 css */
+
+img#shortLine1 {
+	float:			right;
+	width:			260px;
+	padding-top:		35px;
+	padding-bottom:		0px;
+	padding-left:		20px;
+	padding-right:		0px;
+}
+img#ticket {
+	float:			left;
+	width:			150px;
+	padding-top:		11px;
+	padding-bottom:		0px;
+	padding-left:		0px;
+	padding-right:		25px;
+}
+p#ticketIndication {
+	line-height:		8px;
+	text-align:		center;
+	font-weight:		bold;
+	color:			#257BD1;
+}
+img#shortLine2 {
+	float:			right;
+	width:			260px;
+	padding-top:		40px;
+	padding-bottom:		40px;
+	padding-left:		20px;
+	padding-right:		0px;
+}
+
+/* page_3 css */
+
+img#badge {
+	float:			left;
+	padding-top:		15px;
+	padding-bottom:		15px;
+	padding-left:		0px;
+	padding-right:		25px;
+}
+
+/* page_4 css */
+
+img#appScreen {
+	float:			left;
+	width:			225px;
+	padding-top:		10px;
+	padding-bottom:		15px;
+	padding-left:		0px;
+	padding-right:		25px;
+}
+
+/* page_6 css */
+
+div#addressField {
+	font-size:		12px;
+	float:			right;
+	display:		inline-block;
+	width:			400px;
+	height:			22px;
+	padding-top:		0px;
+	padding-bottom:		1px;
+	padding-left:		5px;
+	padding-right:		5px;
+	overflow:		hidden;
+}
+div#questionField {
+	width:			618px;
+	height:			300px;
+	text-align:		justify;
+	font-size:		14px;
+	margin-top:		10px;
+	margin-bottom:		20px;
+	margin-left:		0px;
+	margin-right:		0px;
+	padding:		10px;
+}
+div.editableDiv {
+	background-color:	#FFFFFF;
+	border-width:		1px;
+	border-style:		solid;
+	border-color:		#257BD1;
+	outline:		none;
+	overflow:		auto;
+}
+div.editableDiv:focus {
+	border-color:		#FF950E;
+	outline:		none;
+}
+button#sendButton {
+	float:			right;
+	text-transform:		uppercase;
+	font-weight:		bold;
+	font-size:		13px;
+	color:			#FFFFFF;
+	width:			60px;
+	height:			30px;
+	background-color:	#257BD1;
+	border-width:		0px;
+	margin-top:		20px;
+}
+button#sendButton:hover {
+	background-color:	#FF950E;
+	color:			#FFFFFF;
+}
+button#sendButton::-moz-focus-inner {
+	border:			0px;
+}
+button#sendButton:active {
+	padding:		0px;
+}
+div#sentMessageStatus {
+	display:		none;
+}
+p#alrightParagraph {
+	width:			640px;
+	color:			#FF950E;
+	font-weight:		bold;
+	text-align:		center;
+}
+div#aProblemOccurred {
+	float:			right;
+	display:		none;
+	margin-top:		20px;
+	margin-right:		20px;
+	color:			#FF950E;
+	font-weight:		bold;
+	font-size:		12px;
+}
+div#statusMessage {
+	float:			right;
+	display:		none;
+	margin-top:		20px;
+	margin-right:		20px;
+	color:			#FF950E;
+	font-weight:		bold;
+	font-size:		12px;
+}
+
+/* page_7 css */
+
+img.portrait {
+	float:			left;
+	padding-right:		20px;
+}
+div.description {
+	display:		inline-block;
+	float:			right;
+	width:			500px;
+}

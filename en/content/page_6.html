@@ -1,0 +1,87 @@
+<h3>FAQ</h3>
+
+<p>
+If you have any questions regarding <span class="benextName"></span>, feel free to send me an email at<a href="mailto:info@lastminutelines.com?Subject=Una%20domanda%20su%20beNEXT">
+info@lastminutelines.com</a>.
+Alternatively, you can use the form down below. I will be happy to answer you as soon as possible.
+Furthermore, the most frquently asked questions will be published on this page, with their answer
+of course.
+</p>
+<br />
+<div id="formParagraph">
+<span class="boldText blueText">Ask a question:</span>
+<div id="questionField" class="editableDiv" contenteditable="true"></div>
+<span class="boldText blueText">Address for the reply:</span>
+<div id="addressField" class="editableDiv" contenteditable="true"></div>
+<br />
+<button id="sendButton">send</button>
+<div id="aProblemOccurred">
+Some errors occurrred, please try again in a few seconds.
+</div>
+<div id="statusMessage">
+Sending...
+</div>
+</div>
+
+<div id="sentMessageStatus">
+	<p id="alrightParagraph">Your question has been send. Thank you</p>
+	<span class="boldText orangeText">Text</span><br />
+	<div id="sentQuestion"></div>
+	<br />
+	<span class="boldText orangeText">Address for the reply</span><br />
+	<div id="sentAddress"></div>
+</div>
+
+<br />
+<br />
+<br />
+
+
+<div id="questionContracted1">
+	<h4>QUESTION</h4>
+	<p>
+		<b>Will <span class="benextName"></span> support
+		non-physical things like over-the-phone support queues?</b>
+	</p>
+	<div class="rightAligned">
+		<span class="contractExpand">expand</span>
+	</div>
+</div>
+
+<div id="questionExpanded1" style="display:none;">
+	<h4>QUESTION</h4>
+	<p>
+		<b>Will <span class="benextName"></span> support
+		non-physical things like over-the-phone support queues?</b>
+	</p>
+	<p>
+		I'm working on my own startup, and someday that will mean
+		handling an understaffed phone support system - sounds like
+		the sort of thing <span class="benextName"></span> could make a
+		lot less stressful for callers and support staff alike, provided
+		that it's designed with that as a potential usage.
+	</p>
+	<div class="rightAligned">
+		<span class="contractExpand">shrink</span>
+	</div>
+	<h4>ANSWER</h4>
+<p>
+I haven't really thought about that possibility, but I guess the system could be easily adapted for those. Usually call centers who adopt a queue management system chose the one in which the customer leaves his phone number and he gets called back, but actually <span class="benextName"></span> could be used as well. When the costumer calls, an answering machine gives him - say - a 4 digit number and tells him to call back in x-minutes. When he calls back, he inputs the number and if it matches he waits for a bit and then he starts speaking with the support center.
+</p>
+<p>
+However, <span class="benextName"></span> works best with very long lines. In simple terms, this is how it works: to calculate after how many minutes the costumer needs to call/come back, <span class="benextName"></span> considers the average time needed for a customer, and multiplies for the number of costumers currently in line. So if a costumer has a very long call with the support center, and there is only one person who answers the phone, this could "unbalance" the system, and the costumers after will have to wait more. This is not a problem for very busy places like museums or ticket offices, because multiple costumers can be served simultaneously, so the situation in which a user blocks the line for everybody cannot verify. I've built some mechanisms that allow managing line-blocking users even in small lines, but ultimately this remains <span class="benextName"></span>'s Achilles' heel (or better, in those situations <span class="benextName"></span> can only help marginally, and maybe some other system can be used).
+<br />
+Moreover, when the user calls back, he may still need to wait a bit on the phone, something he may not like (certainly if the alternative is making him wait 30/40 minutes on the phone, <span class="benextName"></span> offers still a big improvement).
+You could go around these two issues by increasing the time-per-costumer, which would guarantee that when the costumer calls back he doesn't have to wait, although you would decrease the number of costumers you can serve each day.
+</p>
+<p>
+It would also be a bit tricky, as I see it, to explain on the phone to the caller what he needs to do (taking the number, calling back after some time, entering the number on the numpad...).
+</p>
+<p>
+So, to return to the call center scenario. Yes, I guess <span class="benextName"></span> could be used in a call center, but there might be better solutions.
+Moreover, right now I don't feel like making any plan for supporting that usage, as it is very particular, in the sense that I would probably have to integrate the functionality of a <span class="benextName"></span> terminal into a PBX (and there are many PBXs out there, so I would have to commit to a particular one). But it's nothing too difficult, the engine of <span class="benextName"></span> could be still used, since the project is open source. So hiring a developer to build the PBX-integration would be fairly easy. Still, before doing that I would look into other possibilities to solve the call center problem.
+</p>
+	<div class="rightAligned">
+		<span class="contractExpand">shrink</span>
+	</div>
+</div>

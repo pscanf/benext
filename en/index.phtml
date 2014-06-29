@@ -1,0 +1,64 @@
+<!-- Home of the BNXT project -->
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- I put the meta tag so that firebug would stop complaining. -->
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<title>BENEXT - Last Minute Lines</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/pages.css">
+		<script src="js/index.js"></script>
+	</head>
+	
+	<body>
+		<!-- BNEXT logo. Ita manages transparency. -->
+		<img id="logo" src="images/png/logo.png" />
+
+		<!-- Menu to switch between pages. Page switching is done in javascript. -->
+		<div id="menu">
+			<div id="linkPage1" class="menuItem blue">what is benext</div>
+			<div id="linkPage2" class="menuItem blue">the ticket</div>			
+			<div id="linkPage3" class="menuItem blue">the badge</div>
+			<div id="linkPage4" class="menuItem blue">the app</div>
+			<div id="linkPage5" class="menuItem blue">indiegogo</div>
+			<div id="linkPage6" class="menuItem blue">faq</div>
+			<div id="linkPage7" class="menuItem blue">who am I</div>
+			<div id="linkItalian" class="menuItem blue">italiano</div>
+		</div>
+
+		<!-- Here we have all the (five) pages in the site. -->
+		<div id="pagesContainer">
+
+			<div id="page1" class="page">
+				@@include("content/page_1.html")
+			</div>			
+
+			<div id="page2" class="page">
+				@@include("content/page_2.html")
+			</div>
+
+			<div id="page3" class="page">
+				@@include("content/page_3.html")
+			</div>
+			
+			<div id="page4" class="page">
+				@@include("content/page_4.html")
+			</div>
+			
+			<div id="page5" class="page">
+				@@include("content/page_5.html")
+			</div>
+
+			<div id="page6" class="page">
+				@@include("content/page_6.html")
+			</div>
+
+			<div id="page7" class="page">
+				@@include("content/page_7.html")
+			</div>
+
+		</div>
+
+	</body>	
+</html>

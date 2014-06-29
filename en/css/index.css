@@ -1,0 +1,137 @@
+/* Main CSS for BNXT home */
+
+/* Elements by tag */
+
+body {
+	font-family:		"Helvetica";
+	background-color:	#EBEBEB;
+	margin:			0px;
+	padding:		0px;
+	border-width:		0px;
+}
+h3 {
+	color:			#FF950E;
+}
+h4 {
+	color:			#FF950E;
+}
+ul {
+	list-style-image:	url("../images/png/bullet.png");
+}
+li {
+	padding-left:		10px;
+}
+ol {
+	line-height:		12px;
+	font-weight:		bold;
+	color:			#257BD1;
+}
+ol > li > p {
+	font-weight:		normal;
+	color:			#000000;
+}
+a:link {
+	font-weight:		bold;
+	text-decoration:	none;
+	color:			#257BD1;
+}
+a:visited {
+	font-weight:		bold;
+	text-decoration:	none;
+	color:			#257BD1;
+}
+a:hover {
+	font-weight:		bold;
+	text-decoration:	none;
+	color:			#FF950E;
+}
+
+/* Elements by id */
+
+img#logo {
+	position:		absolute;
+	top:			0px;
+	left:			-webkit-calc(50% - 430px);
+	left:			-moz-calc(50% - 430px);
+	left:			calc(50% - 430px);
+	width:			860px;
+	z-index:		1;
+}
+div#menu {
+	position:		absolute;
+	left:			-webkit-calc(50% - 430px);
+	left:			-moz-calc(50% - 430px);
+	left:			calc(50% - 430px);
+	top:			150px;
+	width:			180px;
+	margin:			0px;
+	padding:		0px;
+	border-width:		0px;
+	z-index:		1;
+}
+div#pagesContainer {
+	position:		absolute;
+	top:			130px;
+	left:			-webkit-calc(50% - 210px);
+	left:			-moz-calc(50% - 210px);
+	left:			calc(50% - 210px);
+	width:			640px;
+	z-index:		0;
+}
+
+/* Elements by class */
+
+div.menuItem {
+	text-transform:		uppercase;
+	font-size:		16px;
+	font-weight:		bold;
+	width:			180px;
+	padding-top:		15px;
+	padding-bottom:		13px;
+	padding-left:		20px;
+	border-left-width:	5px;
+	border-right-width:	0px;
+	border-top-width:	0px;
+	border-bottom-width:	0px;
+	border-style:		solid;
+	cursor:			pointer;
+}
+div.orange {
+	color:			#FF950E;
+}
+div.orange:hover {
+	opacity:		0.7;
+}
+div.blue {
+	color:			#257BD1;
+}
+div.blue:hover {
+	color:			#FFFFFF;
+}
+div.page {
+	text-align:		justify;
+	display:		none;
+	width:			640px;
+	line-height:		26px;
+}
+img.nextArrow {
+	float:			right;
+	cursor:			pointer;
+	height:			16px;
+	padding-top:		0px;
+	padding-bottom:		20px;
+	margin-left:		20px;
+}
+.boldText {
+	font-weight:		bold;
+}
+.orangeText {
+	color:			#FF950E;
+}
+.blueText {
+	color:			#257BD1;
+}
+span.fixedWidth {
+	display:		inline-block;
+	width:			100px;
+}

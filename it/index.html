@@ -1,0 +1,392 @@
+<!-- Home of the BNXT project -->
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<!-- I put the meta tag so that firebug would stop complaining. -->
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<title>BENEXT - Code Last Minute</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/pages.css">
+		<script src="js/index.js"></script>
+	</head>
+	
+	<body>
+		<!-- BNEXT logo. Ita manages transparency. -->
+		<img id="logo" src="images/png/logo.png" />
+
+		<!-- Menu to switch between pages. Page switching is done in javascript. -->
+		<div id="menu">
+			<div id="linkPage1" class="menuItem blue">cos'e' benext</div>
+			<div id="linkPage2" class="menuItem blue">il biglietto</div>			
+			<div id="linkPage3" class="menuItem blue">il badge</div>
+			<div id="linkPage4" class="menuItem blue">l'app</div>
+			<div id="linkPage5" class="menuItem blue">indiegogo</div>
+			<div id="linkPage6" class="menuItem blue">faq</div>
+			<div id="linkPage7" class="menuItem blue">chi sono</div>
+			<div id="linkEnglish" class="menuItem blue">english</div>
+		</div>
+
+		<!-- Here we have all the (five) pages in the site. -->
+		<div id="pagesContainer">
+
+			<div id="page1" class="page">
+				<h3>COS'E' BENEXT ?</span></span></h3>
+
+<p>
+Ti sara' senz'altro capitato di dover aspettare un'ora o piu' in coda per accedere
+ad un certo servizio. Ad esempio per entrare in un museo, per una visita dal
+medico di base o per arrivare allo sportello di un ufficio pubblico. Per alcune
+persone queste attese sono una rara occorrenza, per altre una quotidianita'.
+Certo e' non sono mai piacevoli, ed evitarle significherebbe risparmiare tempo
+e passare giornate meno stressanti.
+<br />
+A tal proposito nasce <span class="benextName"></span>,
+un sistema di gestione delle code che, grazie ad un ingegnoso metodo di prenotazioni
+"last-minute", trasforma una fila di qualsiasi lunghezza in una da cinque
+minuti (o meno).
+<img id="terminal" src="images/png/terminal.png" />
+</p>
+
+<p>
+Responsabile di questa straordinaria riduzione e' un semplice dispositivo
+grande suppergiu' quanto una obliteratrice: il terminale <span class="benextName"></span>.
+<br />
+Posto all'entrata delle strutture davanti alle quali si forma la coda,
+esso regola l'ingresso degli utenti stabilendo un protocollo d'accesso.
+Seguendo il protocollo gli utenti consentono al terminale di organizzare la
+coda in modo da ridurre i tempi d'attesa.
+</p>
+
+<p>
+Se cio' ti suona complicato non temere: la facilita' d'uso e'
+uno dei capisaldi che hanno guidato la progettazione di
+<span class="benextName"></span>.
+Esso si propone infatti come un sostituto al metodo
+classico di organizzazione della coda, la fila, ed e' pertanto indispensabile
+che si dimostri essere altrettanto semplice ed immediato, poiche' tutti devono essere
+in grado si usarlo, dal bambino all'anziano.<br />
+Inoltre, sempre per soddisfare questo principio di universalita', e' essenziale
+che <span class="benextName"></span> sia privo di requisiti per l'utente. Egli puo'
+persino non sapere cosa <span class="benextName"></span> sia, ma riuscira'
+comunque a servirsene e saltare cosi' la coda.
+</p>
+
+<p>
+Andiamo ora a spiegare piu' nel dettaglio come funziona e soprattutto come si
+utilizza <span class="benextName"></span>, esaminando tre situazioni in cui esso
+consente di evitare una lunga attesa.
+</p>
+
+<img class="nextArrow" src="images/png/nextBlue.png" />
+
+			</div>			
+
+			<div id="page2" class="page">
+				<h3>IL BIGLIETTO</h3>
+
+<p>
+Proiettiamoci nella biglietteria della stazione
+ferroviaria di una grande citta' e dimostriamo con un esempio
+come <span class="benextName"></span> puo' essere
+utilizzato in questo contesto.
+</p>
+
+<p>
+Paolo, l'utente, deve riscuotere un rimborso dalle ferrovie. Si reca dunque 
+alla suddetta biglietteria, luogo notoriamente affollato, con tempi
+di attesa che variano dai venti minuti all'ora e mezza. Supponiamo che Paolo
+arrivi alla stazione alle ore 12.00 e che, a quell'ora, si debbano aspettare 45
+minuti per raggiungere lo sportello.
+</p>
+
+<p>
+La gestione tradizionale della coda prevede il formarsi di una fila fisica di
+persone alla quale Paolo deve aggiungersi e che, dopo 45 minuti di lento
+avanzamento, lo fa giungere finalmente in testa, alle 12.45 appunto.
+La stazione ha pero' adottato il servizio <span class="benextName"></span>. Arrivato dunque
+all'ingresso della biglietteria, Paolo trova il terminale visto in precedenza, fornito di un
+cartello con le seguenti istruzioni:
+
+<img id="shortLine1" src="images/png/shortLine1.png" />
+<ol>
+	<li><p>Premi il pulsante</p></li>
+	<li><p>Ritira il biglietto</p></li>
+	<li><p>Torna all'orario indicato</p></li>
+	<li><p>Passa il biglietto davanti al terminale
+		<br /><br />	(sentirai un suono di conferma)</p></li>
+	<li><p>Accedi alla coda</p></li>
+
+</ol>
+</p>
+
+<br />
+
+<img id="ticket" src="images/png/ticket.png" />
+<p>
+Letto il cartello, Paolo preme allora il pulsante e ritira lo scontrino
+emesso dal terminale. Su di esso sono riportati un codice QR ed un'indicazione:
+</p>
+
+<p id="ticketIndication">"Torna tra le 12.40 e le 12.50".</p>
+
+<p>
+Il terminale ha memorizzato la prenotazione dell'utente, che verra' identificato attraverso il codice QR stampato
+sul biglietto. Paolo puo' ora allontanarsi
+dalla biglietteria e decide di sfruttare quei 40/50 minuti d'attesa per pranzare
+in un bar nelle vicinanze.
+</p>
+
+<br />
+
+<p>
+<img id="shortLine2" src="images/png/shortLine2.png" />
+Tra le 12.40 e le 12.50 Paolo si ripresenta all'entrata della
+biglietteria e passa il suo biglietto davanti al terminale <span class="benextName"></span> che lo
+lascia accedere alla coda per lo sportello. Il vantaggio e' che tale
+coda e' di soli 5 minuti, contro quella di 45 minuti che l'utente avrebbe
+dovuto sorbirsi senza <span class="benextName"></span>.
+</p>
+
+<p>
+Come possiamo evincere dall'esempio, <span class="benextName"></span> non riduce il tempo di attesa, che,
+dopotutto, dipende dal rapporto tra il numero di utenti ed il numero di sportelli.
+<span class="benextName"></span> da' pero' all'utente una finestra temporale entro la quale gli e' garantito
+l'accesso, ed egli e' dunque libero di impiegare come meglio crede
+i minuti d'attesa, invece di essere costretto a mantenere un posto fisico nella coda.
+</p>
+
+<img class="nextArrow" src="images/png/nextBlue.png" />
+
+			</div>
+
+			<div id="page3" class="page">
+				<h3>IL BADGE</h3>
+<p>
+Se l'esempio della biglietteria ti ha convinto riguardo la convenienza e la semplicita'
+di <span class="benextName"></span>, lascia che ti mostri come esso possa risultare,
+in determinate circostanze, ancora piu' utile, conveniente ed immediato da usare.
+</p>
+
+<p>
+Prendiamo in considerazione la realta' di
+una grande citta' d'arte, ricca di musei, palazzi, parchi e, soprattutto,
+stracolma di turisti.
+Qui le lunghe attese sono una quotidianita'. Masse di visitatori aspettano
+ore alle entrate delle grandi attrazioni culturali in disordinate code chilometriche.
+Per mitigare la formazione di tali file ed offrire al turista un'esperienza
+piu' piacevole, la citta' ha deciso di adottare <span class="benextName"></span>.
+</p>
+
+<p>
+L'implementazione scelta in questo contesto e' un'estensione di
+quella vista in precedenza: presso le entrate di musei, palazzi e cattedrali
+vengono installati dei terminali <span class="benextName"></span>, che regolano l'accesso alle
+strutture stabilendo la procedura gia' nota, attraverso la quale il visitatore puo' recarsi davanti
+al luogo d'interesse, premere il pulsante al terminale, ritirare il biglietto,
+presentarsi nell'intervallo indicato ed accedere alla brevissima coda.
+</p>
+
+<p>
+<img id="badge" src="images/png/badge.png" />
+Viene inoltre offerta la possibilita' di acquistare un badge (immagine a fianco),
+che consente all'utente di effettuare la prenotazione presso una qualsiasi
+delle strutture servite da <span class="benextName"></span>. Vediamo come.
+</p>
+
+<p>
+Paolo veste ora i panni del turista, ed ha in programma la visita di
+una manciata di musei e palazzi nella nostra ipotetica citta'.
+Giunto sul posto si reca nella prima edicola che incontra,
+entra e chiede al rivenditore un badge <span class="benextName"></span>. L'edicolante porge a Paolo
+il rettangolino plastificato, che costa - poniamo - cinque euro, e lo informa che,
+alla biglietteria del primo museo che visitera', mostrando il badge quei cinque
+euro verranno detratti dal prezzo dell'entrata.
+</p>
+
+<p>
+Paolo si reca dunque ad uno dei musei in programma, davanti al quale trova il
+familiare terminale <span class="benextName"></span>. Invece di premere il
+pulsante, Paolo passa il suo badge davanti alla macchinetta, che registra la prenotazione
+e stampa un biglietto sul quale e' indicato l'intervallo orario a cui l'utente deve tornare per accedere
+alla coda.
+Il bigliettino emesso dalla macchinetta questa volta non presenta il codice QR perche' ha solo
+la funzione di promemoria.
+L'utente viene infatti identificato dal codice impresso sul badge.
+</p>
+
+<p>
+All'orario stampato sul biglietto, Paolo torna al museo, ripassa il suo badge
+davanti al terminale che lo lascia accedere alla coda per la biglietteria. Qui Paolo acquista
+il ticket d'ingresso, ottenendo la detrazione dovuta, e continua per il museo.
+Il tutto in poco piu' di 5 minuti. Senza <span class="benextName"></span>
+avrebbe dovuto sopportare un'ora e mezza di coda.
+</p>
+
+<img class="nextArrow" src="images/png/nextBlue.png" />
+
+			</div>
+			
+			<div id="page4" class="page">
+				<h3>L'APP</h3>
+
+<p>
+Nelle situazioni viste in precedenza l'utente, per effettuare la sua prenotazione
+al terminale <span class="benextName"></span>, doveva recarsi fisicamente presso il terminale e premere il
+pulsante o passare il badge. Questa prenotazione rientra nella categoria di
+azioni che possono essere effettuate con facilita' da remoto utilizzando, ad
+esempio, uno smartphone.
+<span class="benextName"></span> offre dunque questa possibilita' con un'app e
+un sito web, attraverso i quali e' possibile prenotarsi per una qualsiasi coda
+gestita dal sistema.
+Dimostriamo, ancora una volta attraverso un esempio, la semplice procedura per
+accedere ad una coda <span class="benextName"></span> utilizzando l'app.
+</p>
+
+<p>
+<img id="appScreen" src="images/png/appScreen.png" />
+Ritorniamo dal nostro amico Paolo in visita alla citta' d'arte.
+Dopo aver acquistato il badge <span class="benextName"></span>, Paolo impugna
+il suo smartphone e lancia l'apposita applicazione, con
+la quale scansiona il codice QR impresso sul badge. L'app lo aggiunge cosi'
+alla rete di utenti <span class="benextName"></span> di quella citta', e Paolo
+e' ora in grado di prenotare la visita ai musei direttamente dal suo telefono.
+</p>
+
+<p>
+A prenotazione effettuata, l'app mostra l'intervallo orario entro il quale Paolo
+deve presentarsi per entrare al museo. Giunto all'ingresso,
+per accedere egli passa il badge identificativo come visto nell'esempio precedente o,
+in alternativa, scansiona attraverso l'app un codice QR che appare sul
+terminale <span class="benextName"></span>. Dall'app verra' inviato tramite internet
+un codice di conferma al terminale, che consentira' a Paolo l'accesso.
+</p>
+
+<p>
+Volendo Paolo puo' fare a meno del badge.
+Dall'app egli puo' infatti acquistare il biglietto d'ingresso al museo, operazione che
+gli da' diritto ad effettuare prenotazioni per tale visita.
+Dunque con il suo smartphone Paolo puo' acquistare, prenotare ed accedere ai
+musei, pinacoteche, gallerie etc. La tediosa e stressante attesa in fila viene dunque sostituita
+da un paio di tocchi del cellulare.
+</p>
+
+<img class="nextArrow" src="images/png/nextBlue.png" />
+
+			</div>
+			
+			<div id="page5" class="page">
+				<h3>INDIEGOGO</h3>
+
+<p>
+Il "team" dedicato alla realizzazione di
+<span class="benextName"></span> e' costituito da una persona, il sottoscritto.
+</p>
+
+<p>
+Come tutti i progetti in fase di realizzazione esso non genera ancora un ritorno
+economico e sto pertanto raccogliendo fondi che mi permettano di poterlo
+portare a termine nel minor tempo possibile.
+Ho per questo deciso di rivolgermi ad
+<a href="http://www.indiegogo.com/" target="blank">indiegogo</a>, una
+piattaforma di crowd-funding che consente a chiunque di sponsorizzare progetti
+come <span class="benextName"></span> attraverso piccole donazioni.
+</p>
+
+<p>
+I fondi raccolti verranno impiegati per:
+<ul>
+	<li>
+	acquisto del materiale necessario alla realizzazione dei prototipi dei
+	terminali <span class="benextName"></span>
+	</li>
+	<li>
+	retribuzione di professionisti esterni quali un designer, un UX-specialist, un progettista hardware etc.
+	</li>
+	<li>
+	copertura spese per l'attivita' di promozione del prodotto (una volta
+	realizzato)
+	</li>
+</ul>
+</p>
+
+<p>
+Se cio' che <span class="benextName"></span> propone ti ha colpito e vorresti
+avere la possibilita' di sfruttare i vantaggi che offre, puoi aiutarmi a
+realizzarlo contribuendo con una piccola somma
+<a href="http://www.indiegogo.com/benext" target="blank">alla pagina del progetto
+</a> su indiegogo.
+</p>
+
+			</div>
+
+			<div id="page6" class="page">
+				<h3>FAQ</h3>
+
+<p>
+Se hai qualsiasi domanda riguardo a <span class="benextName"></span>, puoi
+mandarmi una mail all'indirizzo
+<a href="mailto:info@lastminutelines.com?Subject=Una%20domanda%20su%20beNEXT">
+info@lastminutelines.com</a> oppure compilare il form
+che trovi qui sotto. Saro' lieto di risponderti nel minor tempo possibile.
+Inoltre, le risposte alle domande piu' interessanti e popolari veranno
+pubblicate a questa pagina.
+</p>
+<br />
+<div id="formParagraph">
+<span class="boldText blueText">Fai una domanda:</span>
+<div id="questionField" class="editableDiv" contenteditable="true"></div>
+<span class="boldText blueText">Indirizzo per la risposta:</span>
+<div id="addressField" class="editableDiv" contenteditable="true"></div>
+<br />
+<button id="sendButton">invia</button>
+<div id="aProblemOccurred">
+Si sono verificati dei problemi, prova di nuovo fra qualche secondo.
+</div>
+<div id="statusMessage">
+Invio in corso...
+</div>
+</div>
+
+<div id="sentMessageStatus">
+	<p id="alrightParagraph">La domanda e' stata correttamente inviata. Grazie</p>
+	<span class="boldText orangeText">Testo</span><br />
+	<div id="sentQuestion"></div>
+	<br />
+	<span class="boldText orangeText">Indirizzo per la risposta</span><br />
+	<div id="sentAddress"></div>
+</div>
+
+			</div>
+
+			<div id="page7" class="page">
+				<h3>CHI SONO</h3>
+
+<p>
+<span class="benextName"></span> e' un progetto portato avanti dal colui che vi scrive,
+Paolo Scanferla, che lavora a tempo pieno alla sua realizzazione.
+</p>
+<br />
+<div>
+	<img class="portrait" src="images/png/picture.png" />
+	<div class="description">
+		<span class="boldText blueText">Paolo Scanferla</span>
+		<br />
+		Web developer, libero professionista.
+		<br />
+		<br />
+		<span class="boldText orangeText fixedWidth">Sede:</span>
+		Milano
+		<br />
+		<span class="boldText orangeText fixedWidth">Email:</span>
+		<a href="mailto:paolo@lastminutelines.com?Subject=Una%20domanda%20su%20beNEXT">
+paolo@lastminutelines.com</a>
+	</div>
+</div>
+
+			</div>
+
+		</div>
+
+	</body>	
+</html>
